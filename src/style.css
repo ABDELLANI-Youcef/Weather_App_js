@@ -21,7 +21,7 @@ body {
   min-height: 100vh;
   min-width: 22rem;
   display: block;
-  background-color: #ECC171;
+  background-color: #ecc171;
 }
 
 #container {
@@ -43,7 +43,7 @@ p {
 }
 
 h1 {
-  color: #87501C;
+  color: #87501c;
 }
 
 h1,
