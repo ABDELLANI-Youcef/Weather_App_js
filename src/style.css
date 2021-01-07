@@ -1,0 +1,75 @@
+/* global settings */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  min-width: 22rem;
+  min-height: 44rem;
+  display: block;
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  min-width: 22rem;
+  display: block;
+  background-color: #ECC171;
+}
+
+#container {
+  background-color: #6ef;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 50px auto;
+  width: max-content;
+  padding: 50px;
+}
+
+#results {
+  display: none;
+}
+
+p {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+}
+
+h1 {
+  color: #87501C;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+
+#weather_img {
+  margin: 20px auto;
+}
+
+#town_form {
+  margin: 10px auto;
+}
+
+input {
+  height: 34px;
+  margin: 2px;
+}
+
+#town_name {
+  width: 80%;
+}
+
+#error_message {
+  color: red;
+  font-weight: bold;
+  display: none;
+}
