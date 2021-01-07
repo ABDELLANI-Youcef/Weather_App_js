@@ -35,7 +35,7 @@ const getWeather = async (place) => {
     weather.textContent = state;
     temperature.textContent = `${(weatherData.main.temp - 273.15).toFixed(2)}°C`;
     humidity.textContent = weatherData.main.humidity;
-    windSpeed.textContent = `${weatherData.wind.speed * 3.6}`;
+    windSpeed.textContent = `${(weatherData.wind.speed * 3.6).toFixed(2)}`;
     const d = (((weatherData.wind.deg + 360 - 22.5) / 45) % 8).toFixed(0);
     windDirection.textContent = directions[d];
     errMessage.style.display = 'none';
