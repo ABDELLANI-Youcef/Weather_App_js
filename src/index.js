@@ -29,7 +29,7 @@ const getPicture = async (theme) => {
 
 const getWeather = async (place) => {
   try {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${place}&APPID=6e34ebc8632e3e43ecefd3953c9f8c70`, { mode: 'cors' });
+    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${place}&APPID=6e34ebc8632e3e43ecefd3953c9f8c70`, { mode: 'cors' });
     const weatherData = await response.json();
     const state = weatherData.weather[0].main;
     const tempDegree = (weatherData.main.temp - 273.15).toFixed(1);
