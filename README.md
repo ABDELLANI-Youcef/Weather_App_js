@@ -37,7 +37,15 @@ $ cd Weather_App_js
 $ git checkout development
 $ git branch feature
 $ git checkout feature
+
 ```
+
+## Lunch the application
+
+After making the local copy of the repository:
+- get inside the repository folder;
+- get inside the the folder (dist);
+- open the "index.html" file in the web browser.
 
 ## Author
 

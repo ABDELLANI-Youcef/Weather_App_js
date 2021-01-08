@@ -51,6 +51,26 @@ h2 {
   margin-bottom: 10px;
 }
 
+#temperatureF {
+  display: none;
+}
+
+#temperatureC {
+  display: inline;
+}
+
+#temperatureF.fahranheit_mode {
+  display: inline;
+}
+
+#temperatureC.fahranheit_mode {
+  display: none;
+}
+
+#switchTemp {
+  margin-left: 5px;
+}
+
 #weather_img {
   margin: 20px auto;
 }
