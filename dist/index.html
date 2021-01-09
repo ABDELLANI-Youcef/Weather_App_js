@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>The Weather Appplication in the Cities</h1>
+      <div id="results">
+        <h2>the weather in <span id="city_name"></span></h1>
+        <p>The weather is: <span id="weather"></span></p>
+        <p>The temperature is: <span id="temperatureC"></span><span id="temperatureF"></span><button id="switchTemp">Fahrenheit degree</button></p>
+        <p>The humidity is: <span id="humidity"></span></p>
+        <p>The wind speed: <span id="wind_speed"></span></p>
+        <p>The wind direction: <span id="wind_direction"></span></p>
+        <img id="weather_img" src="#" alt="Weather">
+      </div>
+      <form id="town_form">
+        <input type="text" name="town_name" id="town_name" required="required" placeholder="Please Insert the name of the town here">
+        <input type="submit" value="submit">
+      </form>
+      <p id="error_message">the given city is invalid!</p>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
